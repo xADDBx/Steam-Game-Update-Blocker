@@ -8,4 +8,4 @@ Changes buildid to most recent one.
 
 Iterates through all installed Depots and updates their Manifest to the most recent one.
 
-Uses SteamKit2 to get information
+Uses https://github.com/ValvePython/steam to get information

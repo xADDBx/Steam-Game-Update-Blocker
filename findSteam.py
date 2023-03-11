@@ -39,10 +39,8 @@ def findSteam():
             if os.path.exists(path):
                 ValidHardPaths.append(path)
     it = [Path2, Path1Res, Path3]
-    if len(ValidHardPaths) == 0:
-        ValidHardPaths = None
-    else:
-        it.append(ValidHardPaths)
+    if len(ValidHardPaths) > 0:
+        it.extend(ValidHardPaths)
     for i in it:
         if i is not None:
             return os.path.join(os.path.dirname(i), "steamapps")

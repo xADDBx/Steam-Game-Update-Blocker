@@ -8,6 +8,7 @@ from requests import ConnectionError
 
 
 steamdir = findSteam()
+print("Found Steam in: " + steamdir)
 mySteam = steam.client.SteamClient()
 username = input("Enter Username: ")
 password = input("Enter Password: ")

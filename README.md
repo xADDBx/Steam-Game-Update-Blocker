@@ -2,7 +2,7 @@
 The project will modify Steam acf files to allow playing a Game without updating.
 You need a steam Account and the AppID of the game. You can get the AppID by visiting the Steam shop page of the game. The link will look like:
 
-https://store.steampowered.com/app/{AppID}/GameName/
+https://store.steampowered.com/app/{AppID}/{GameName}/
 
 You just need to copy the AppID.
 

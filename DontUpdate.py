@@ -19,7 +19,7 @@ retry = True
 while retry:
     try:
         retry = False
-        res = mySteam.login(username="***REMOVED***", password="***REMOVED***")
+        res = mySteam.login(username=username, password=password)
     except ConnectionError:
         print("Connection error! Retrying...")
         tries += 1

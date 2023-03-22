@@ -28,7 +28,7 @@ while repeat:
 with open(os.path.join(steamdir, f"appmanifest_{appID}.acf"), "r") as inp:
     file = acf.load(inp)
 
-print(f"Modyfing for Game: {file['AppState']['name']}")
+print(f"Modifying for Game: {file['AppState']['name']}")
 
 file["AppState"]["StateFlags"] = 4
 for depot in file["AppState"]["InstalledDepots"].keys():

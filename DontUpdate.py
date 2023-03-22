@@ -9,7 +9,7 @@ from gevent import timeout
 steamdir = findSteam()
 print("Found Steam in: " + steamdir)
 mySteam = steam.client.SteamClient()
-mySteam.anonymous_login()
+print(mySteam.anonymous_login())
 
 appID = input("Enter AppID of Game: ").strip()
 myCDN = CDNClient(mySteam)

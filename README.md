@@ -1,4 +1,4 @@
-# Don't update me
+# Steam Game Update Blocker
 The project will modify Steam acf files to allow playing a Game without updating. 
 To be able to play the game you need to restart Steam after running the program. To prevent accidents it's best to just have Steam closed before running the program.
 You need a steam Account and the AppID of the game. You can get the AppID by visiting the Steam shop page of the game. The link will look like:
